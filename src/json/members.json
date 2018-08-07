@@ -1,0 +1,40 @@
+[{
+  "name":"ちげ Chige12",
+  "icon":"chige12.png",
+  "origin":"奈良高専 電気工学科",
+  "area":"Kyoto",
+  "links": {
+    "site_url":"https//",
+    "twitter_id":"chige12_",
+    "facebook_id":"chige12f",
+    "instagram_id": null,
+    "github_id":"Chige12"
+  },
+  "like_channels": [
+    "design","video","frontend","font","emoji"
+  ],
+  "self_introduction": [
+    "一行目",
+    "二行目"
+  ]
+},
+{
+  "name":"hoge",
+  "icon":"hoge.png",
+  "origin":"hoge高専",
+  "area":"hoge",
+  "links": {
+    "site_url":"https//",
+    "twitter_id":"hoge",
+    "facebook_id":"hoge",
+    "instagram_id": null,
+    "github_id":"hoge"
+  },
+  "like_channels": [
+    "muscle"
+  ],
+  "self_introduction": [
+    "一行目",
+    "二行目"
+  ]
+}]
