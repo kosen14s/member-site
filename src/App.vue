@@ -1,15 +1,21 @@
 <template>
   <div id="app">
     <header>
-      <img src="kosen14s_logo" alt="14slogo">
-      <div class="title">
-        <h1>#profile</h1>
-        <p>kosen14sのメンバーを紹介します。</p>
+      <div class="container">
+        <img src="kosen14s_logo" alt="14slogo">
+        <div class="title">
+          <h1>#profile</h1>
+          <p>kosen14sの、{{this.members.length}}人のメンバーを紹介します。</p>
+        </div>
+        <input v-model="search" placeholder="キーワード検索">
+        <div>
+          <button @click="display=6">6人表示</button>
+          <button @click="display=12">12人表示</button>
+        </div>
       </div>
-      <input v-model="search" placeholder="キーワード検索">
     </header>
 
-    <MemberList :members="members" :search="search"></MemberList>
+    <MemberList :display="display" :members="members" :search="search" :channels="channels"></MemberList>
   </div>
 </template>
 
@@ -21,7 +27,9 @@ export default {
   name: 'app',
   data() {
     return {
+      display: 6,
       search: "",
+      channels: [],
       members: []
     }
   },
@@ -55,23 +63,22 @@ body {
   margin-top: 30px;
   font-size: 1.1rem;
 }
-
 h1, h2 {
   font-weight: normal;
 }
-
 ul {
   list-style-type: none;
   padding: 0;
 }
-
 li {
   display: inline-block;
   margin: 0 10px;
 }
-
 a {
   color: #42b983;
 }
-
+.container {
+  width: 1500px;
+  margin:auto;
+}
 </style>
