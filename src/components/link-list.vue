@@ -39,3 +39,8 @@
     }
   }
 </script>
+<style lang="scss">
+.link-list{
+  display: inline-block;
+}
+</style>
