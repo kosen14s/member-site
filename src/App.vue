@@ -7,15 +7,20 @@
           <h1>#profile</h1>
           <p>kosen14sの、{{this.members.length}}人のメンバーを紹介します。</p>
         </div>
-        <input v-model="search" placeholder="キーワード検索">
+        <input v-model="filter.search" placeholder="キーワード検索">
         <div>
-          <button @click="display=6">6人表示</button>
-          <button @click="display=12">12人表示</button>
+          <button @click="filter.display=6">6人表示</button>
+          <button @click="filter.display=12">12人表示</button>
         </div>
+        <ul>
+          <li v-for="channeltag in filter.channeltags" :key="channeltag.id">
+            <button @click="removeChannelTag(channeltag)">{{"#"+channeltag}}</button>
+          </li>
+        </ul>
+        <p>{{this.filter.member_viewlength}}/{{this.filter.search_hit}}人表示</p>
       </div>
     </header>
-
-    <MemberList :display="display" :members="members" :search="search" :channels="channels"></MemberList>
+    <MemberList :filter="filter" :members="members"></MemberList>
   </div>
 </template>
 
@@ -27,14 +32,28 @@ export default {
   name: 'app',
   data() {
     return {
-      display: 6,
-      search: "",
-      channels: [],
+      filter: {
+        display: 6,
+        search: "",
+        search_hit:0,
+        member_viewlength:0,
+        channeltags: [],
+        all_channel_list: []
+      },
       members: []
     }
   },
   components: {
     MemberList: MemberList
+  },
+  methods: {
+    removeChannelTag(channeltag) {
+      for (let i = 0; i < this.filter.channeltags.length; i++) {
+        if(this.filter.channeltags[i] == channeltag){
+          this.filter.channeltags.splice(i, 1);
+        }
+      }
+    }
   },
   mounted () {
     var that = this
