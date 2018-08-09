@@ -4,11 +4,14 @@
   "origin":"奈良高専 電気工学科",
   "area":"Kyoto",
   "links": {
-    "site_url":"https//",
+    "site_url":"https://chige12.github.io",
     "twitter_id":"chige12_",
     "facebook_id":"chige12f",
     "instagram_id": null,
-    "github_id":"Chige12"
+    "github_id":"Chige12",
+    "tumblr_id":null,
+    "blog_url":"https://chige12.github.io",
+    "youtube_url":null
   },
   "channels": [
     "design","video","frontend","font","emoji","virtal-youtuber"
@@ -28,7 +31,10 @@
     "twitter_id":"hoge",
     "facebook_id":"hoge",
     "instagram_id": null,
-    "github_id":null
+    "github_id":null,
+    "tumblr_id":null,
+    "blog_url":null,
+    "youtube_url":null
   },
   "channels": [
     "books","bot"
@@ -48,7 +54,10 @@
     "twitter_id":"hoge",
     "facebook_id": null,
     "instagram_id": null,
-    "github_id":null
+    "github_id":null,
+    "tumblr_id":null,
+    "blog_url":null,
+    "youtube_url":null
   },
   "channels": [
     "muscle","camp_2","cg"
@@ -68,7 +77,10 @@
     "twitter_id":"hoge",
     "facebook_id": null,
     "instagram_id": null,
-    "github_id":null
+    "github_id":null,
+    "tumblr_id":null,
+    "blog_url":null,
+    "youtube_url":null
   },
   "channels": [
     "dojin","computer","design"
@@ -88,7 +100,10 @@
     "twitter_id":"hoge",
     "facebook_id": null,
     "instagram_id": null,
-    "github_id":null
+    "github_id":null,
+    "tumblr_id":null,
+    "blog_url":null,
+    "youtube_url":null
   },
   "channels": [
     "emoji","electricity","dojin"
@@ -108,7 +123,10 @@
     "twitter_id":"hoge",
     "facebook_id": null,
     "instagram_id": null,
-    "github_id":"hoge"
+    "github_id":"hoge",
+    "tumblr_id":null,
+    "blog_url":null,
+    "youtube_url":null
   },
   "channels": [
     "external","english","computer"
@@ -128,7 +146,10 @@
     "twitter_id":"hoge",
     "facebook_id": "hoge",
     "instagram_id": "hoge",
-    "github_id":null
+    "github_id":null,
+    "tumblr_id":null,
+    "blog_url":null,
+    "youtube_url":null
   },
   "channels": [
     "illust","music","japaripark"
@@ -148,7 +169,10 @@
     "twitter_id":"hoge",
     "facebook_id": null,
     "instagram_id": "hoge",
-    "github_id":null
+    "github_id":null,
+    "tumblr_id":null,
+    "blog_url":null,
+    "youtube_url":null
   },
   "channels": [
     "徹子の部屋","yama","music"
@@ -168,7 +192,10 @@
     "twitter_id":"hoge",
     "facebook_id": null,
     "instagram_id": null,
-    "github_id":"hoge"
+    "github_id":"hoge",
+    "tumblr_id":null,
+    "blog_url":null,
+    "youtube_url":null
   },
   "channels": [
     "otaku","low_layer","frontend"
@@ -188,7 +215,10 @@
     "twitter_id":"hoge",
     "facebook_id": null,
     "instagram_id": null,
-    "github_id":null
+    "github_id":null,
+    "tumblr_id":null,
+    "blog_url":null,
+    "youtube_url":null
   },
   "channels": [
     "muscle","machine_learning","game"
@@ -208,7 +238,10 @@
     "twitter_id":"hoge",
     "facebook_id": null,
     "instagram_id": null,
-    "github_id":null
+    "github_id":null,
+    "tumblr_id":null,
+    "blog_url":null,
+    "youtube_url":null
   },
   "channels": [
     "robot","video","design"
@@ -228,7 +261,10 @@
     "twitter_id":"hoge",
     "facebook_id": null,
     "instagram_id": null,
-    "github_id":null
+    "github_id":null,
+    "tumblr_id":null,
+    "blog_url":null,
+    "youtube_url":null
   },
   "channels": [
     "lightning-talk","ramen","electricity"
@@ -248,7 +284,10 @@
     "twitter_id":"hoge",
     "facebook_id": null,
     "instagram_id": null,
-    "github_id":null
+    "github_id":null,
+    "tumblr_id":null,
+    "blog_url":null,
+    "youtube_url":null
   },
   "channels": [
     "math","virtual_youtuber","ラッキーすぎて草"
@@ -268,7 +307,10 @@
     "twitter_id":"hoge",
     "facebook_id": null,
     "instagram_id": null,
-    "github_id":null
+    "github_id":null,
+    "tumblr_id":null,
+    "blog_url":null,
+    "youtube_url":null
   },
   "channels": [
     "23c","ramen","books"
@@ -288,7 +330,10 @@
     "twitter_id":"hoge",
     "facebook_id": null,
     "instagram_id": null,
-    "github_id":null
+    "github_id":null,
+    "tumblr_id":null,
+    "blog_url":null,
+    "youtube_url":null
   },
   "channels": [
     "computer","english","frontend"
@@ -308,7 +353,10 @@
     "twitter_id":"hoge",
     "facebook_id": null,
     "instagram_id": null,
-    "github_id":null
+    "github_id":null,
+    "tumblr_id":null,
+    "blog_url":null,
+    "youtube_url":null
   },
   "channels": [
     "ramen","machine_learning","homepage"
