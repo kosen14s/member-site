@@ -269,19 +269,6 @@
       li.member_list_item {
         margin: 2px 0;
         width: 100%;
-        .member-header {
-          display: flex;
-          .member-name{
-            margin-top: 0;
-          }
-          .member-icon {
-            width:30%;
-            height:30%;
-            border: 1px solid #ddd;
-            border-radius: 10%;
-            margin-right: 5%;
-          }
-        }
       }
     }
   }
