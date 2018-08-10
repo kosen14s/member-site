@@ -3,7 +3,7 @@
     <header>
       <div class="container">
         <div class="title">
-          <a href="./" class="sub-title">
+          <a href="http://kosen14s.github.io" class="sub-title">
             <img src="../src/assets/kosen14s_logo.png" alt="logo">
             <h2>kosen14s</h2>
           </a>
