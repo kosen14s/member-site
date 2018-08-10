@@ -65,11 +65,10 @@
 <style lang="scss">
 .link-list{
   display: inline-block;
+  padding-top: 4px;
   .link-box {
     margin: 0;
     padding: 0;
-    padding-top: 4px;
-    padding-left: -5px;
     a {
       display: block;
       position: relative;
@@ -87,6 +86,18 @@
         transition: .3s ease-out;
         &:hover{
           opacity: 1;
+        }
+      }
+    }
+  }
+}
+@media(max-width: 1350px) {
+  .link-list{
+    .link-box {
+      a {
+        .link-icon {
+          width: 45px;
+          height: 45px; //54px以上でロゴ使用権利範囲内
         }
       }
     }

@@ -9,7 +9,7 @@
           </a>
           <h1>#profile</h1>
         </div>
-        <p class="discription">kosen14sの、{{this.members.length}}人のメンバーを紹介します。</p>
+        <p class="discription">kosen14sのメンバーのうち、{{this.members.length}}人が自己紹介を書いてくれました。</p>
       </div>
     </header>
     <section class="filter">
@@ -148,6 +148,15 @@ p {
 .container {
   width: 1500px;
   margin:auto;
+}
+@media(max-width: 1600px) {
+  :root {
+    --section: 94%;
+  }
+  .container {
+    margin: 0 calc((100% - var(--section)) / 2) 0;
+    width: var(--section);
+  }
 }
 header {
   background: #4c9689;
