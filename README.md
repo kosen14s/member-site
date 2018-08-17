@@ -1,16 +1,15 @@
 # kosen14s-member
 
-kosen14sというSlackで雑談しているグループのメンバー紹介ページを作りました。
+kosen14sのメンバー紹介ページを作りました。
 
 > A Vue.js project
 used : vue-cli webpack-simple
 
-## jig.jp インターン課題について
-github pagesで公開しようと思ってたんですが、色々あって難しいので、
-クローンして `npm run dev` でローカルで確認していただきたいです。
+## Github pagesで公開したい誰か助けて
 
-buildしてもindex.htmlがbuild.jsを引っ張ってきてくれません。
-現在のwebpackの設定が、コンパイル時にパスをうまく付けてくれてないようなので、原因がわかったら解決したいと思います。
+ `npm run dev` だと見れる。
+github pagesで公開しようと思ってたんだけど、buildしてもindex.htmlがbuild.jsを引っ張ってきてくれない。
+現在のwebpackの設定が、コンパイル時にパスをうまく付けてくれてないみたいなんだけど、どう変えたらいいかわからん。
 
 ## Build Setup
 
